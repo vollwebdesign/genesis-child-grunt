@@ -1,7 +1,7 @@
-Genesis Sample Theme with Sass
+Genesis Sample Theme with Sass and fully styled - thanks to gregrickaby
 ===
 
-This fork includes modern development tools like Grunt, Sass, PostCSS, and Bourbon. I *try* to keep it up to date with Genesis 2.0+ development. Your pull requests are welcome. Now, go get Sassy!
+This fork includes modern development tools like Grunt, Sass, PostCSS, and Bourbon. Greg *tries* to keep it up to date with Genesis 2.0+ development. Your pull requests are welcome at https://github.com/gregrickaby/genesis-sample
 
 ## Features
 * [Grunt](https://github.com/gruntjs/grunt)
@@ -11,6 +11,7 @@ This fork includes modern development tools like Grunt, Sass, PostCSS, and Bourb
 * [LiveReload](https://github.com/livereload/LiveReload)
 * Image optimization
 * Script linting and CSS minifcation
+* special styles inspired by the amazing Travor Neilson and his devtips youtube channel
 
 ## Pre-Installation
 
