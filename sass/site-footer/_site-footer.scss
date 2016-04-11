@@ -1,0 +1,40 @@
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+	background-color: $color-blue;
+	color:  $color-white;
+	font-size: rem(16);
+	line-height: 1;
+	padding: 40px 0;
+	text-align: center;
+
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color:  $color-white;
+	}
+	.wrap p {
+      overflow: hidden;
+      padding: 0 60px;
+   }
+}
+
+#menu-footer li {
+    line-height: 20px;
+    list-style-type: none;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-top: 5px;
+    position: relative;
+
+	 a {
+	   padding: 5px 10px 5px !important;
+	   color: #0D53A1;
+	   display: block;
+	   font-size: 0.9em;
+	   text-transform: uppercase;
+	   font-weight: 400;
+	}
+}

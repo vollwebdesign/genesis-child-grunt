@@ -1,0 +1,83 @@
+/* ## Typographical Elements
+--------------------------------------------- */
+
+body {
+	background: $color-gallery;
+	color: $color-blue;
+	font-family: $font-sans;
+	font-size: rem(18);
+	font-weight: 300;
+	line-height: 1.625;
+	margin: 0;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.gallery img {
+	@include transition(all .1s ease-in-out);
+}
+
+a {
+	color: $color-mandy;
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		color: $color-mine-shaft;
+		text-decoration: none;
+	}
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+hr {
+	border: 0;
+	border-collapse: collapse;
+	border-top: 1px solid $color-alto;
+	clear: both;
+	margin: 16px 0;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+blockquote,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 40px;
+
+	&::before {
+		@include position(relative, -10px null null -20px);
+
+		content: "\201C";
+		display: block;
+		font-size: rem(30);
+		height: 0;
+	}
+}
