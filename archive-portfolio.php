@@ -60,7 +60,7 @@ function lp_filterable_portfolio( ){
 <div class="archive-description">
         <?php if( $terms ) { ?>
             <ul id="portfolio-cats" class="filter clearfix">
-                <li><a href="#" class="active" data-filter="*"><button><?php _e('All', 'lp'); ?></button></a></li>
+                <li><a href="#" class="active" data-filter="*"><button><?php _e('Alle', 'lp'); ?></button></a></li>
                 <?php
                     foreach( $terms as $term ){
                         echo "<li><a href='#' data-filter='.$term->slug'><button>$term->name</button></a></li>";
