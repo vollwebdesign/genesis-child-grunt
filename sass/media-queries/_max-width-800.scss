@@ -4,6 +4,12 @@
 		background-color: $color-white;
 		font-size: rem(16);
 	}
+	p {
+		font-size: rem(15);
+	}
+	.site-inner {
+		padding-top: 20px;
+	}
 
 	.site-inner,
 	.wrap {
@@ -19,7 +25,7 @@
 	.entry-pings,
 	.sidebar .widget,
 	.site-header {
-		padding: 0;
+		padding: 5px;
 	}
 
 	.archive-pagination li a {
@@ -43,5 +49,47 @@
 
 	.sidebar .widget.enews-widget {
 		padding: 40px;
+	}
+
+	.site-header {
+		.widget-area {
+			margin-top: 0;
+		}
+		.wrap {
+    		padding: 0;
+		}
+	}
+	h1.entry-title,
+	h1.archive-title,
+	h2.entry-title {
+		font-size: rem(24);
+    	margin: auto;
+    	padding: 15px;
+    	text-align: center;
+	}
+
+	h2.entry-title, h3 {
+		font-size: rem(18);
+	}
+
+	.entry .entry-content div {
+		padding:0;
+	}
+
+	.site-footer {
+    padding: 15px 0;
+
+		.wrap p {
+			padding: 0 20px;
+		}
+		.footer-left, .footer-right {
+			float:none;
+		}
+	}
+	.to-top {
+		height:30px;
+		width:30px;
+		bottom:70px;
+		right:5px;
 	}
 }

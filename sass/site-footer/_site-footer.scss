@@ -4,7 +4,7 @@
 .site-footer {
 	background-color: $color-blue;
 	color:  $color-white;
-	font-size: rem(16);
+	font-size: rem(14);
 	line-height: 1;
 	padding: 40px 0;
 	text-align: center;
@@ -19,22 +19,12 @@
       overflow: hidden;
       padding: 0 60px;
    }
-}
-
-#menu-footer li {
-    line-height: 20px;
-    list-style-type: none;
-    padding-bottom: 8px;
-    padding-left: 22px;
-    padding-top: 5px;
-    position: relative;
-
-	 a {
-	   padding: 5px 10px 5px !important;
-	   color: #0D53A1;
-	   display: block;
-	   font-size: 0.9em;
-	   text-transform: uppercase;
-	   font-weight: 400;
+	.footer-left {
+		float:left;
+		text-align: left;
+	}
+	.footer-right {
+		float:right;
+		text-align: right;
 	}
 }

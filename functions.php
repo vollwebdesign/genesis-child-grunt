@@ -72,7 +72,7 @@ function add_footer_scripts() {
 //* Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '<span class="alignleft">[footer_copyright] &middot; SG Dornheim 1886 e.V. Abteilung Tanzsport &middot; Webdesign: <a href="http://vollwebdesign.de">Voll WebDesign</a></span> &nbsp; <span class="alignright"> <a href="http://sg-tanzen.dev/impressum/" itemprop="url">Impressum</a> &middot; <a href="http://sg-tanzen.dev/datenschutz/" itemprop="url">Datenschutz</a></span>';
+	$creds = '<span class="footer-left">[footer_copyright] &middot; SG Dornheim 1886 e.V. Abteilung Tanzsport &middot; Webdesign: <a href="http://vollwebdesign.de" title="Voll WebDesign" target="_blank">Voll WebDesign</a></span> &nbsp; <span class="footer-right"> <a href="/impressum/" itemprop="url">Impressum</a> &middot; <a href="/datenschutz/" itemprop="url">Datenschutz</a></span>';
 	return $creds;
 }
 
@@ -86,3 +86,8 @@ add_action( 'genesis_before', 'genesis_to_top');
 add_post_type_support( 'portfolio', 'genesis-cpt-archives-settings' );
 //* Define custom image size for Portfolio images in Portfolio archive
 add_image_size( 'portfolio-image', 330, 230, true );
+
+//Enqueue the Dashicons script
+add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' ); function load_dashicons_front_end() {
+	wp_enqueue_style( 'dashicons' );
+}

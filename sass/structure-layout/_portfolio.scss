@@ -19,18 +19,17 @@ ul.filter li:first-child {
 }
 
 ul.filter a {
-    color: #555;
+    color: $color-mine-shaft;
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-bottom: none;
-    font-size: 1.5rem;
-    font-weight: 300;
-    border-top: 4px solid #fff;
+    font-size: rem(20);
+    border-top: 4px solid $color-white;
 }
 
 ul.filter a:hover, ul.filter a.active {
-    border-top: 4px solid #3d91f0;
+    border-top: 4px solid $color-blue;
 }
 
 .filterable-portfolio {

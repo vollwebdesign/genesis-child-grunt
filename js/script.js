@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 });
 
 jQuery(document).ready(function($){
-   $( "body" ).append( "<div class='top-rect'></div>" );
+   $( "body" ).prepend( "<div class='top-rect'></div>" );
 });
 
 /*!
