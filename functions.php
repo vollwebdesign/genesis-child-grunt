@@ -91,3 +91,15 @@ add_image_size( 'portfolio-image', 330, 230, true );
 add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' ); function load_dashicons_front_end() {
 	wp_enqueue_style( 'dashicons' );
 }
+
+/** Customise the post info info function */
+add_filter( 'genesis_post_info', 'genesischild_post_info' );
+function genesischild_post_info($post_info) {
+ if (!is_page()) {
+ $post_info = 'Posted on [post_date] [post_comments] [post_edit]';
+ return $post_info;
+ }
+}
+
+//* Remove the post meta function
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
