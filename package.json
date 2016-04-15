@@ -1,7 +1,7 @@
 {
-  "name": "tanzsport-dornheim",
+  "name": "genesis-sample",
   "version": "2.2.2",
-  "description": "Based on Genesis Sample Theme with modern front-end development tools.",
+  "description": "Genesis Sample Theme with modern front-end development tools.",
   "main": "Gruntfile.js",
   "dependencies": {
     "autoprefixer": "^6.3.3",
