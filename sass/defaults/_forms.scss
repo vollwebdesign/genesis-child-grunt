@@ -41,13 +41,14 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: $color-mine-shaft;
+	background-color: $color-blue;
 	border: 0;
+	@include border-top-radius(3px);
 	color: $color-white;
 	cursor: pointer;
-	font-size: rem(16);
+	font-size: rem(14);
 	font-weight: 300;
-	padding: 16px 24px;
+	padding: 6px 15px;
 	text-transform: uppercase;
 	width: auto;
 }
@@ -62,7 +63,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus  {
-	background-color: $color-thunderbird;
+	background-color: $color-mandy;
 	color: $color-white;
 }
 

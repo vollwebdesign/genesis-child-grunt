@@ -92,4 +92,13 @@
 		bottom:70px;
 		right:5px;
 	}
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.button {
+		font-size: rem(12);
+		padding: 4px 10px;
+		width: auto;
+	}
 }

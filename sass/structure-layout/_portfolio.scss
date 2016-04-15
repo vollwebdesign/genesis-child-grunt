@@ -24,12 +24,8 @@ ul.filter a {
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-bottom: none;
-    font-size: rem(20);
+    font-size: rem(16);
     border-top: 4px solid $color-white;
-}
-
-ul.filter a:hover, ul.filter a.active {
-    border-top: 4px solid $color-blue;
 }
 
 .filterable-portfolio {

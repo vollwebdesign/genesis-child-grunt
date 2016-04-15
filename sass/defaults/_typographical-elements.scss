@@ -3,7 +3,7 @@
 
 body {
 	background: $color-gallery;
-	color: $color-blue;
+	color: $color-mine-shaft;
 	font-family: $font-sans;
 	font-size: rem(18);
 	font-weight: 300;
@@ -29,7 +29,7 @@ a {
 
 	&:hover,
 	&:focus {
-		color: $color-mine-shaft;
+		color: $color-blue;
 		text-decoration: none;
 	}
 }
