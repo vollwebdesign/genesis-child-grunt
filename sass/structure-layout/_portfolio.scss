@@ -1,5 +1,8 @@
 /* # Filterable portfolio
 ---------------------------------------------------------------------------------------------------- */
+.cpt-archive-description {
+	display:none;
+}
 
 .post-type-archive-portfolio .archive-description{
     overflow: hidden;
@@ -8,7 +11,7 @@
 ul.filter {
     color: #999;
     list-style: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 ul.filter li {

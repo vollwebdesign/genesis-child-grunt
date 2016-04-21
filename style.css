@@ -783,8 +783,7 @@ input[type="submit"],
 .button {
   background-color: #004E96;
   border: 0;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-radius: 3px;
   color: #fff;
   cursor: pointer;
   font-size: 0.875rem;
@@ -1094,6 +1093,10 @@ th {
 
 /* # Filterable portfolio
 ---------------------------------------------------------------------------------------------------- */
+.cpt-archive-description {
+  display: none;
+}
+
 .post-type-archive-portfolio .archive-description {
   overflow: hidden;
 }
@@ -1101,7 +1104,6 @@ th {
 ul.filter {
   color: #999;
   list-style: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 ul.filter li {
@@ -1499,19 +1501,6 @@ img.alignright,
   height: 80px;
   text-indent: -9999em;
   width: 200px;
-}
-
-@media only screen and (max-width: 960px) {
-  .site-title a {
-    margin: auto;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .site-title a {
-    width: 40%;
-    height: 60px;
-  }
 }
 
 .site-header {
@@ -2254,6 +2243,9 @@ li.comment {
   .footer-widgets-1 {
     margin-right: 0;
   }
+  .site-title a {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -2345,6 +2337,12 @@ li.comment {
     font-size: 0.75rem;
     padding: 4px 10px;
     width: auto;
+  }
+  .title-area {
+    padding: 0;
+  }
+  .site-title {
+    font-size: 1rem;
   }
 }
 

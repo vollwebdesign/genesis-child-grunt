@@ -43,7 +43,7 @@ input[type="submit"],
 .button {
 	background-color: $color-blue;
 	border: 0;
-	@include border-top-radius(3px);
+	border-radius: 3px;
 	color: $color-white;
 	cursor: pointer;
 	font-size: rem(14);
