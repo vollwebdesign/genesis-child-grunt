@@ -2343,6 +2343,10 @@ li.comment {
   .site-title {
     font-size: 1rem;
   }
+  .site-title a {
+    background: url(images/tanzsport-logo-white.png) no-repeat;
+    background-size: 100% auto;
+  }
 }
 
 /* # Print Styles
