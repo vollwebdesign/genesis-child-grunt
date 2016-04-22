@@ -13,8 +13,8 @@ remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'lp_filterable_portfolio' );
 
 // Enqueue javascript
-wp_enqueue_script('isotope', get_stylesheet_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '1.5.25', true);
-wp_enqueue_script('isotope_init', get_stylesheet_directory_uri() . '/js/isotopes_init.js', array('isotope'), '', true);
+// wp_enqueue_script('isotope', get_stylesheet_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '1.5.25', true);
+// wp_enqueue_script('isotope_init', get_stylesheet_directory_uri() . '/js/isotopes_init.js', array('isotope'), '', true);
 
 /**
 * Get Excerpt.
