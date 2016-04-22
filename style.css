@@ -1117,11 +1117,10 @@ ul.filter li:first-child {
 ul.filter a {
   color: #333;
   display: block;
-  padding: 0.5rem 1rem;
+  padding-right: 1rem;
   text-decoration: none;
   border-bottom: none;
   font-size: 1rem;
-  border-top: 4px solid #fff;
 }
 
 .filterable-portfolio {

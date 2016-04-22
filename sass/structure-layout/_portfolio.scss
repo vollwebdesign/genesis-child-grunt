@@ -24,11 +24,10 @@ ul.filter li:first-child {
 ul.filter a {
     color: $color-mine-shaft;
     display: block;
-    padding: 0.5rem 1rem;
+    padding-right: 1rem;
     text-decoration: none;
     border-bottom: none;
     font-size: rem(16);
-    border-top: 4px solid $color-white;
 }
 
 .filterable-portfolio {
