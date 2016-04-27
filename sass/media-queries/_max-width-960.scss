@@ -65,4 +65,9 @@
 	.site-title a {
 		margin:auto;
 	}
+	.site-footer {
+		.footer-left, .footer-right {
+			float:none;
+		}
+	}
 }

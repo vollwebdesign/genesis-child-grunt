@@ -1311,7 +1311,7 @@ ul.filter a {
 }
 
 .entry-title a:hover, .entry-title a:focus {
-  color: #CC6F7F;
+  color: #85c17d;
 }
 
 .sidebar .widget-title a {
@@ -2054,7 +2054,7 @@ li.comment {
 }
 
 .sidebar li {
-  border-bottom: 1px dotted #ddd;
+  border-bottom: none;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -2279,6 +2279,9 @@ body {
   }
   .site-title a {
     margin: auto;
+  }
+  .site-footer .footer-left, .site-footer .footer-right {
+    float: none;
   }
 }
 
