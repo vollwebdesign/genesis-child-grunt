@@ -1914,6 +1914,10 @@ a.alignright, img.alignright, .wp-caption.alignright {
   margin: 20px 0 20px 20px;
 }
 
+#vorstandsbild {
+  margin-right: 50px;
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
 p.entry-meta {
