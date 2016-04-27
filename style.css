@@ -2283,6 +2283,13 @@ body {
   .site-footer .footer-left, .site-footer .footer-right {
     float: none;
   }
+  ul.filter {
+    text-align: center;
+  }
+  ul.filter li {
+    float: none;
+    display: inline-block;
+  }
 }
 
 @media only screen and (max-width: 800px) {

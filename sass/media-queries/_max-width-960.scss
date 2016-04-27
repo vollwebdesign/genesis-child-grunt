@@ -67,7 +67,15 @@
 	}
 	.site-footer {
 		.footer-left, .footer-right {
-			float:none;
+			float: none;
+		}
+	}
+	ul.filter {
+		text-align: center;
+		
+		li {
+	   	float: none;
+	    	display: inline-block;
 		}
 	}
 }
