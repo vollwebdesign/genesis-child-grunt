@@ -8,14 +8,28 @@
 	text-align: center;
 }
 
-.responsive-menu-icon::before {
-	content: "\f333";
-	display: inline-block;
-	font: normal 30px/1 'dashicons';
-	margin: 0 auto;
-	padding: 10px;
-   color: $color-white;
+// .responsive-menu-icon::before {
+// 	content: "\f333";
+// 	display: inline-block;
+// 	font: normal 30px/1 'dashicons';
+// 	margin: 0 auto;
+// 	padding: 10px;
+//    color: $color-white;
+// }
+
+.responsive-menu-icon:before {
+    content: "";
+    display: inline-block;
+    margin: 20px auto;
+    color: #fff;
+    left: 0;
+    top: 0.35em;
+    width: 1.5em;
+    height: 0.2em;
+    background: white;
+    box-shadow: 0 1em 0 0 white, 0 .5em 0 0 white;
 }
+
 .nav-primary .responsive-menu-icon::before {
 	color: $color-white;
 }
