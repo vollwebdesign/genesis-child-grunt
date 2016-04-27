@@ -2128,6 +2128,33 @@ li.comment {
 
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
+/* keep the footer at bottom of page when no or little content */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.site-container {
+  min-height: 100%;
+  position: relative;
+}
+
+.site-inner {
+  padding-bottom: 100px;
+  /* Height of the footer element */
+}
+
+.site-footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* end of keep the footer at bottom of page when no or little content */
 .site-footer {
   background-color: #004E96;
   color: #fff;
