@@ -568,7 +568,7 @@ textarea:focus,
 }
 
 a {
-  color: #CC6F7F;
+  color: #85c17d;
   text-decoration: underline;
 }
 
@@ -803,7 +803,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus {
-  background-color: #CC6F7F;
+  background-color: #85c17d;
   color: #fff;
 }
 
@@ -1071,7 +1071,7 @@ th {
 }
 
 .no-touch .to-top:hover {
-  background-color: #e86256;
+  background-color: #85c17d;
   opacity: 1;
 }
 
@@ -1621,7 +1621,7 @@ img.alignright,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #CC6F7F;
+  color: #85c17d;
   text-decoration: none;
   text-weight: bold;
 }
