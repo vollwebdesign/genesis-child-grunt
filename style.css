@@ -2285,6 +2285,7 @@ body {
   }
   ul.filter {
     text-align: center;
+    padding-top: 20px;
   }
   ul.filter li {
     float: none;

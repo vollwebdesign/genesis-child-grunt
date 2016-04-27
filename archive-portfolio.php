@@ -66,7 +66,7 @@ function lp_filterable_portfolio( ){
                         echo "<li><a href='#' data-filter='.$term->slug'><button>$term->name</button></a></li>";
                     }
                 ?>
-            </ul><!-- /portfolio-cats --><br/><br/>
+            </ul><!-- /portfolio-cats --><br/>
         <?php } ?>
 
          <?php if( have_posts() ) { ?>
