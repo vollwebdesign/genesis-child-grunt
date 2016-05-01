@@ -1,0 +1,12 @@
+.sidebar .widget, .archive-description, .entry, img {
+   box-shadow: 0 2px 5px 0
+   rgba(0,0,0,0.16),0 2px 10px 0
+   rgba(0,0,0,0.12);
+   transition: box-shadow .25s;
+   border-radius: 2px;
+}
+.blog .content {
+   box-shadow: none;
+   transition: none;
+   border-radius: 2px;
+}

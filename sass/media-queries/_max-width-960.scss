@@ -66,8 +66,17 @@
 		margin:auto;
 	}
 	.site-footer {
+		padding: 40px 0;
+
 		.footer-left, .footer-right {
 			float: none;
+		}
+		.footer-right {
+
+			a img {
+		   	top: 40px;
+				left: 10px;
+			}
 		}
 	}
 	ul.filter {

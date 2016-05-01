@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 		sass: {
 			options: {
 				outputStyle: 'expanded', // Determines the output format of the final CSS style.
-				sourceComments: false, // Enables additional debugging information in the output file as CSS comments.
+				sourceComments: true, // Enables additional debugging information in the output file as CSS comments.
 				sourceMap: true, // Enables the outputting of a source map.
 				includePaths: require('bourbon').includePaths, // Include Bourbon
 			},

@@ -72,7 +72,7 @@ function add_footer_scripts() {
 //* Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '<span class="footer-left">[footer_copyright] &middot; SG Dornheim 1886 e.V. Abteilung Tanzsport &middot; Webdesign: <a href="http://vollwebdesign.de" title="Voll WebDesign" target="_blank">Voll WebDesign</a></span> &nbsp; <span class="footer-right"> <a href="/kontakt-vorstand" itemprop="url">Kontakt/Vorstand</a> &middot; <a href="/impressum/" itemprop="url">Impressum</a> &middot; <a href="/datenschutz/" itemprop="url">Datenschutz</a></span>';
+	$creds = '<span class="footer-left">[footer_copyright] &middot; SG Dornheim 1886 e.V. Abteilung Tanzsport &middot; Webdesign: <a href="http://vollwebdesign.de" title="Voll WebDesign" target="_blank">Voll WebDesign</a></span> &nbsp; <span class="footer-right"> <a href="/kontakt-vorstand" title="Kontakt & Vorstand" itemprop="url">Kontakt/Vorstand</a> &middot; <a href="/impressum/" itemprop="url" title="Impressum">Impressum</a> &middot; <a href="/datenschutz/" itemprop="url" title="Datenschutz">Datenschutz</a> &nbsp; &nbsp; <a href="https://www.facebook.com/tanzen.sgdornheim" target="_blank" itemprop="url" title="SG Dornheim Tanzsport bei Facebook"><img src="/wp-content/uploads/2016/05/facebook.png" alt="SG Dornheim Tanzsport bei Facebook" width="28"></a></span>';
 	return $creds;
 }
 

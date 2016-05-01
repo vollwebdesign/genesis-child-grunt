@@ -62,6 +62,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	- Max-width: 800px
 	- Print
 */
+/* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/utilities/mixins/index.scss */
 .fade-in-element {
   background: white;
   border: 1px solid silver;
@@ -74,21 +75,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   width: 100%;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/node_modules/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
 .fade-in-element::after {
   clear: both;
   content: "";
   display: table;
 }
 
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/utilities/mixins/index.scss */
 .fade-in-element p {
   color: #333;
   line-height: 1.5em;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/utilities/mixins/index.scss */
 .js-fade-element-hide {
   opacity: 0;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/utilities/mixins/index.scss */
 .js-fade-element-show {
   opacity: 1;
   transition: all 0.4s ease-in-out;
@@ -102,6 +107,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -114,6 +120,7 @@ html {
 /**
  * Remove default margin.
  */
+/* line 19, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 body {
   margin: 0;
 }
@@ -126,6 +133,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 article,
 aside,
 details,
@@ -146,6 +154,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
+/* line 54, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 audio,
 canvas,
 progress,
@@ -160,6 +169,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+/* line 67, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -169,6 +179,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
+/* line 77, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 [hidden],
 template {
   display: none;
@@ -179,6 +190,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
+/* line 89, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 a {
   background-color: transparent;
 }
@@ -187,6 +199,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
+/* line 98, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -197,6 +210,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
+/* line 110, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -204,6 +218,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
+/* line 118, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -212,6 +227,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
+/* line 127, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -220,6 +236,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
+/* line 136, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -228,6 +245,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
+/* line 145, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -236,6 +254,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+/* line 154, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 small {
   font-size: 80%;
 }
@@ -243,6 +262,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+/* line 162, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -251,10 +271,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 170, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 sup {
   top: -0.5em;
 }
 
+/* line 174, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -264,6 +286,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
+/* line 185, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 img {
   border: 0;
 }
@@ -271,6 +294,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
+/* line 193, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -280,6 +304,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
+/* line 204, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -287,6 +312,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
+/* line 212, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0;
@@ -295,6 +321,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
+/* line 221, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 pre {
   overflow: auto;
 }
@@ -302,6 +329,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
+/* line 229, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 code,
 kbd,
 pre,
@@ -322,6 +350,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
+/* line 252, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button,
 input,
 optgroup,
@@ -338,6 +367,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
+/* line 266, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button {
   overflow: visible;
 }
@@ -348,6 +378,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
+/* line 277, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button,
 select {
   text-transform: none;
@@ -360,6 +391,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 290, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -373,6 +405,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 302, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -381,6 +414,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 311, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -391,6 +425,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 322, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 input {
   line-height: normal;
 }
@@ -402,6 +437,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 334, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -415,6 +451,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
+/* line 346, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -424,6 +461,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
+/* line 356, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -436,6 +474,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
+/* line 367, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -444,6 +483,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 376, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -454,6 +494,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 387, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -464,6 +505,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
+/* line 396, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -472,6 +514,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
+/* line 405, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -481,11 +524,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
+/* line 416, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 421, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_baseline-normalize.scss */
 td,
 th {
   padding: 0;
@@ -493,11 +538,13 @@ th {
 
 /* ## Box Sizing
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_box-sizing.scss */
 html,
 input[type="search"] {
   box-sizing: border-box;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_box-sizing.scss */
 *,
 *:before,
 *:after {
@@ -506,6 +553,7 @@ input[type="search"] {
 
 /* ## Float Clearing
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_float-clearing.scss */
 .author-box:before,
 .clearfix:before,
 .entry:before,
@@ -523,6 +571,7 @@ input[type="search"] {
   display: table;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/reset/_float-clearing.scss */
 .author-box:after,
 .clearfix:after,
 .entry:after,
@@ -545,6 +594,7 @@ input[type="search"] {
 ---------------------------------------------------------------------------------------------------- */
 /* ## Typographical Elements
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 body {
   background: #eee;
   color: #333;
@@ -555,6 +605,7 @@ body {
   margin: 0;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 a,
 button,
 input:focus,
@@ -567,31 +618,37 @@ textarea:focus,
   transition: all 0.1s ease-in-out;
 }
 
+/* line 26, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 a {
   color: #85c17d;
   text-decoration: underline;
 }
 
+/* line 30, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 a:hover, a:focus {
   color: #004E96;
   text-decoration: none;
 }
 
+/* line 37, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 p {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
 
+/* line 42, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 ol,
 ul {
   margin: 0;
   padding: 0;
 }
 
+/* line 48, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 li {
   list-style-type: none;
 }
 
+/* line 52, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 hr {
   border: 0;
   border-collapse: collapse;
@@ -600,11 +657,13 @@ hr {
   margin: 16px 0;
 }
 
+/* line 60, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 b,
 strong {
   font-weight: 700;
 }
 
+/* line 65, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 blockquote,
 cite,
 em,
@@ -612,10 +671,12 @@ i {
   font-style: italic;
 }
 
+/* line 72, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 blockquote {
   margin: 40px;
 }
 
+/* line 75, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_typographical-elements.scss */
 blockquote::before {
   position: relative;
   top: -10px;
@@ -628,6 +689,7 @@ blockquote::before {
 
 /* ## Headings
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h1,
 h2,
 h3,
@@ -641,32 +703,39 @@ h6 {
   margin: 0 0 30px;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h1 {
   font-size: 2.25rem;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h2 {
   font-size: 1.875rem;
 }
 
+/* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h3 {
   font-size: 1.5rem;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h4 {
   font-size: 1.25rem;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h5 {
   font-size: 1.125rem;
 }
 
+/* line 37, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_headings.scss */
 h6 {
   font-size: 1rem;
 }
 
 /* ## Objects
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_objects.scss */
 embed,
 iframe,
 img,
@@ -676,10 +745,12 @@ video,
   max-width: 100%;
 }
 
+/* line 13, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_objects.scss */
 img {
   height: auto;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_objects.scss */
 .featured-content img,
 .gallery img {
   width: auto;
@@ -687,60 +758,73 @@ img {
 
 /* ## Gallery
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery {
   overflow: hidden;
 }
 
+/* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery img {
   border: 1px solid #ddd;
   height: auto;
   padding: 4px;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery img:hover, .gallery img:focus {
   border: 1px solid #999;
 }
 
+/* line 19, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-item {
   float: left;
   margin: 0 0 28px;
   text-align: center;
 }
 
+/* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-2 .gallery-item {
   width: 50%;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-3 .gallery-item {
   width: 33%;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-4 .gallery-item {
   width: 25%;
 }
 
+/* line 37, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-5 .gallery-item {
   width: 20%;
 }
 
+/* line 41, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-6 .gallery-item {
   width: 16.6666%;
 }
 
+/* line 45, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-7 .gallery-item {
   width: 14.2857%;
 }
 
+/* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-8 .gallery-item {
   width: 12.5%;
 }
 
+/* line 53, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_gallery.scss */
 .gallery-columns-9 .gallery-item {
   width: 11.1111%;
 }
 
 /* ## Forms
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 input,
 select,
 textarea {
@@ -753,29 +837,34 @@ textarea {
   width: 100%;
 }
 
+/* line 16, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 input:focus,
 textarea:focus {
   border: 1px solid #999;
   outline: none;
 }
 
+/* line 22, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 input[type="checkbox"],
 input[type="image"],
 input[type="radio"] {
   width: auto;
 }
 
+/* line 28, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 ::-moz-placeholder {
   color: #333;
   font-weight: 300;
   opacity: 1;
 }
 
+/* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 ::-webkit-input-placeholder {
   color: #333;
   font-weight: 300;
 }
 
+/* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -793,6 +882,7 @@ input[type="submit"],
   width: auto;
 }
 
+/* line 56, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 button:hover,
 input:hover[type="button"],
 input:hover[type="reset"],
@@ -807,11 +897,13 @@ input:focus[type="submit"],
   color: #fff;
 }
 
+/* line 72, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 .entry-content .button:hover,
 .entry-content .button:focus {
   color: #fff;
 }
 
+/* line 80, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 .footer-widgets button,
 .footer-widgets input[type="button"],
 .footer-widgets input[type="reset"],
@@ -821,6 +913,7 @@ input:focus[type="submit"],
   color: #fff;
 }
 
+/* line 89, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 .footer-widgets button:hover,
 .footer-widgets input:hover[type="button"],
 .footer-widgets input:hover[type="reset"],
@@ -835,10 +928,12 @@ input:focus[type="submit"],
   color: #333;
 }
 
+/* line 104, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 .button {
   display: inline-block;
 }
 
+/* line 108, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button {
   display: none;
@@ -846,6 +941,7 @@ input[type="search"]::-webkit-search-results-button {
 
 /* ## Tables
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -854,26 +950,31 @@ table {
   width: 100%;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_tables.scss */
 tbody {
   border-bottom: 1px solid #ddd;
 }
 
+/* line 16, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_tables.scss */
 td,
 th {
   text-align: left;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_tables.scss */
 td {
   border-top: 1px solid #ddd;
   padding: 6px 0;
 }
 
+/* line 26, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_tables.scss */
 th {
   font-weight: 400;
 }
 
 /* ## Screen Reader Text
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_screen-reader-text.scss */
 .screen-reader-text,
 .screen-reader-text span,
 .screen-reader-shortcut {
@@ -885,6 +986,7 @@ th {
   overflow: hidden;
 }
 
+/* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_screen-reader-text.scss */
 .screen-reader-text:focus,
 .screen-reader-shortcut:focus,
 .genesis-nav-menu .search input[type="submit"]:focus,
@@ -904,6 +1006,7 @@ th {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/defaults/_screen-reader-text.scss */
 .more-link {
   position: relative;
 }
@@ -912,12 +1015,14 @@ th {
 ---------------------------------------------------------------------------------------------------- */
 /* ## Site Containers
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_site-containers.scss */
 .site-inner,
 .wrap {
   margin: 0 auto;
   max-width: 1200px;
 }
 
+/* line 10, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_site-containers.scss */
 .site-inner {
   clear: both;
   padding-top: 40px;
@@ -926,60 +1031,71 @@ th {
 /* ## Column Widths and Positions
 --------------------------------------------- */
 /* ### Wrapping div for .content and .sidebar-primary */
+/* line 6, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content-sidebar-sidebar .content-sidebar-wrap,
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
   width: 980px;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content-sidebar-sidebar .content-sidebar-wrap {
   float: left;
 }
 
+/* line 16, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
   float: right;
 }
 
 /* ### Content */
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content {
   float: right;
   width: 800px;
 }
 
+/* line 28, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content-sidebar .content,
 .content-sidebar-sidebar .content,
 .sidebar-content-sidebar .content {
   float: left;
 }
 
+/* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content-sidebar-sidebar .content,
 .sidebar-content-sidebar .content,
 .sidebar-sidebar-content .content {
   width: 580px;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .full-width-content .content {
   width: 100%;
 }
 
 /* ### Primary Sidebar */
+/* line 46, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .sidebar-primary {
   float: right;
   width: 360px;
 }
 
+/* line 51, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .sidebar-content .sidebar-primary,
 .sidebar-sidebar-content .sidebar-primary {
   float: left;
 }
 
 /* ### Secondary Sidebar */
+/* line 58, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .sidebar-secondary {
   float: left;
   width: 180px;
 }
 
+/* line 63, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-widths-positions.scss */
 .content-sidebar-sidebar .sidebar-secondary {
   float: right;
 }
@@ -987,6 +1103,7 @@ th {
 /* ## Column Classes
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
+/* line 5, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .five-sixths,
 .four-sixths,
 .one-fourth,
@@ -1002,43 +1119,52 @@ th {
   margin-left: 2.564102564102564%;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .one-half,
 .three-sixths,
 .two-fourths {
   width: 48.717948717948715%;
 }
 
+/* line 26, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .one-third,
 .two-sixths {
   width: 31.623931623931625%;
 }
 
+/* line 31, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .four-sixths,
 .two-thirds {
   width: 65.81196581196582%;
 }
 
+/* line 36, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .one-fourth {
   width: 23.076923076923077%;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .three-fourths {
   width: 74.35897435897436%;
 }
 
+/* line 44, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .one-sixth {
   width: 14.52991452991453%;
 }
 
+/* line 48, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .five-sixths {
   width: 82.90598290598291%;
 }
 
+/* line 52, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_column-classes.scss */
 .first {
   clear: both;
   margin-left: 0;
 }
 
+/* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
 .to-top {
   display: inline-block;
   height: 40px;
@@ -1057,25 +1183,30 @@ th {
   z-index: 999;
 }
 
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
 .to-top.top-is-visible {
   visibility: visible;
   opacity: 1;
 }
 
+/* line 28, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
 .to-top.top-is-visible:hover {
   background-color: #333;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
 .to-top.top-fade-out {
   opacity: .5;
 }
 
+/* line 37, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
 .no-touch .to-top:hover {
   background-color: #85c17d;
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
+  /* line 43, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
   .to-top {
     right: 20px;
     bottom: 20px;
@@ -1083,6 +1214,7 @@ th {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* line 50, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_backtotop.scss */
   .to-top {
     height: 50px;
     width: 50px;
@@ -1093,27 +1225,33 @@ th {
 
 /* # Filterable portfolio
 ---------------------------------------------------------------------------------------------------- */
+/* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .cpt-archive-description {
   display: none;
 }
 
+/* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .post-type-archive-portfolio .archive-description {
   overflow: hidden;
 }
 
+/* line 11, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 ul.filter {
   color: #999;
   list-style: none;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 ul.filter li {
   float: left;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 ul.filter li:first-child {
   margin-left: 0;
 }
 
+/* line 24, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 ul.filter a {
   color: #333;
   display: block;
@@ -1123,11 +1261,13 @@ ul.filter a {
   font-size: 1rem;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .filterable-portfolio {
   margin-left: -2rem;
   margin-left: -20px;
 }
 
+/* line 38, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-item {
   float: left;
   margin-bottom: 2rem;
@@ -1138,11 +1278,13 @@ ul.filter a {
   width: 23%;
 }
 
+/* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-item a img {
   display: block;
   margin-bottom: 0;
 }
 
+/* line 54, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-overlay {
   color: #fff;
   position: absolute;
@@ -1157,10 +1299,12 @@ ul.filter a {
   transition: all 0.2s ease-in-out;
 }
 
+/* line 71, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-item img:hover + .portfolio-overlay, .portfolio-overlay:hover {
   opacity: 1;
 }
 
+/* line 75, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-overlay h3 {
   font-weight: bold;
   margin: 0;
@@ -1170,6 +1314,7 @@ ul.filter a {
   color: #fff;
 }
 
+/* line 84, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .clearfix {
   clear: both;
 }
@@ -1177,14 +1322,17 @@ ul.filter a {
 /*-----------------------------------------------------------------------------------*
 /* = Isotope CSS Animations
 /*-----------------------------------------------------------------------------------*/
+/* line 91, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope, .isotope .isotope-item {
   transition-duration: 0.6s;
 }
 
+/* line 92, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope {
   transition-property: height, width;
 }
 
+/* line 93, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope .isotope-item {
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
@@ -1192,65 +1340,91 @@ ul.filter a {
 }
 
 /**** disabling Isotope CSS3 transitions ****/
+/* line 95, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
   transition-duration: 0s;
 }
 
+/* line 97, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .filterable-portfolio-page .content .entry-header {
   margin-bottom: 1rem;
   margin-bottom: 10px;
 }
 
+/* line 102, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .filterable-portfolio-page .content .entry-title {
   margin-bottom: 3rem;
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1179px) {
+  /* line 108, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 22%;
   }
 }
 
 @media only screen and (max-width: 1023px) {
+  /* line 114, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 30%;
   }
 }
 
 @media only screen and (max-width: 500px) {
+  /* line 119, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 100%;
   }
+}
+
+/* line 1, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_card-styles.scss */
+.sidebar .widget, .archive-description, .entry, img {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_card-styles.scss */
+.blog .content {
+  box-shadow: none;
+  transition: none;
+  border-radius: 2px;
 }
 
 /* # Common Classes
 ---------------------------------------------------------------------------------------------------- */
 /* ## Avatar
 --------------------------------------------- */
+/* line 5, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_avatar.scss */
 .avatar {
   float: left;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_avatar.scss */
 .alignleft .avatar,
 .author-box .avatar {
   margin-right: 24px;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_avatar.scss */
 .alignright .avatar {
   margin-left: 24px;
 }
 
+/* line 18, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_avatar.scss */
 .comment .avatar {
   margin: 0 16px 24px 0;
 }
 
 /* ## Genesis
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_genesis.scss */
 .breadcrumb {
   margin-bottom: 20px;
 }
 
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_genesis.scss */
 .archive-description,
 .author-box {
   background-color: #fff;
@@ -1259,11 +1433,13 @@ ul.filter a {
   padding: 40px;
 }
 
+/* line 16, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_genesis.scss */
 .author-box-title {
   font-size: 1rem;
   margin-bottom: 4px;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_genesis.scss */
 .archive-description p:last-child,
 .author-box p:last-child {
   margin-bottom: 0;
@@ -1271,20 +1447,24 @@ ul.filter a {
 
 /* ## Search Form
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_search-form.scss */
 .search-form {
   overflow: hidden;
 }
 
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_search-form.scss */
 .site-header .search-form {
   float: right;
   margin-top: 12px;
 }
 
+/* line 13, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_search-form.scss */
 .entry-content .search-form,
 .site-header .search-form {
   width: 50%;
 }
 
+/* line 18, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_search-form.scss */
 .genesis-nav-menu .search input[type="submit"],
 .widget_search input[type="submit"] {
   border: 0;
@@ -1298,111 +1478,133 @@ ul.filter a {
 
 /* ## Titles
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .archive-title {
   font-size: 2.25rem;
 }
 
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .entry-title {
   font-size: 2.25rem;
 }
 
+/* line 11, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .entry-title a {
   color: #333;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .entry-title a:hover, .entry-title a:focus {
   color: #85c17d;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .sidebar .widget-title a {
   color: #333;
 }
 
+/* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .widget-title {
   font-size: 1.125rem;
   margin-bottom: 20px;
 }
 
+/* line 30, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_titles.scss */
 .footer-widgets .widget-title {
   color: #fff;
 }
 
 /* ## WordPress
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 a.aligncenter img {
   display: block;
   margin: 0 auto;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 a.alignnone {
   display: inline-block;
 }
 
+/* line 13, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .alignleft {
   float: left;
   text-align: left;
 }
 
+/* line 18, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .alignright {
   float: right;
   text-align: right;
 }
 
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 a.alignleft,
 a.alignnone,
 a.alignright {
   max-width: 100%;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 img.centered,
 .aligncenter {
   display: block;
   margin: 0 auto 24px;
 }
 
+/* line 35, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 img.alignnone,
 .alignnone {
   margin-bottom: 12px;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 a.alignleft,
 img.alignleft,
 .wp-caption.alignleft {
   margin: 0 24px 24px 0;
 }
 
+/* line 46, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 a.alignright,
 img.alignright,
 .wp-caption.alignright {
   margin: 0 0 24px 24px;
 }
 
+/* line 52, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .wp-caption-text {
   font-size: 0.875rem;
   font-weight: 700;
   text-align: center;
 }
 
+/* line 60, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .entry-content p.wp-caption-text {
   margin-bottom: 0;
 }
 
+/* line 64, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .entry-content .wp-audio-shortcode,
 .entry-content .wp-playlist,
 .entry-content .wp-video {
   margin: 0 0 28px;
 }
 
+/* line 71, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/common-classes/_wordpress.scss */
 .sticky {
   display: block;
 }
 
 /* # Widgets
 ---------------------------------------------------------------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_widgets.scss */
 .widget {
   word-wrap: break-word;
 }
 
+/* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_widgets.scss */
 .widget ol > li {
   list-style-position: inside;
   list-style-type: decimal;
@@ -1410,16 +1612,19 @@ img.alignright,
   text-indent: -20px;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_widgets.scss */
 .widget li li {
   border: 0;
   margin: 0 0 0 30px;
   padding: 0;
 }
 
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_widgets.scss */
 .widget_calendar table {
   width: 100%;
 }
 
+/* line 27, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_widgets.scss */
 .widget_calendar td,
 .widget_calendar th {
   text-align: center;
@@ -1427,16 +1632,19 @@ img.alignright,
 
 /* ## Featured Content
 --------------------------------------------- */
+/* line 6, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_featured-content.scss */
 .featured-content .entry {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
   padding: 0 0 24px;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_featured-content.scss */
 .featured-content .entry-title {
   font-size: 1.25rem;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/widgets/_featured-content.scss */
 .footer-widgets .entry {
   border-bottom: 1px dotted #666;
 }
@@ -1445,24 +1653,29 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 /* ## Genesis eNews Extended
 --------------------------------------------- */
+/* line 5, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget {
   color: #fff;
 }
 
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget .widget-title {
   color: #fff;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget input,
 .enews-widget input:focus {
   border: 1px solid #333;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget input {
   font-size: 1rem;
   margin-bottom: 16px;
 }
 
+/* line 22, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget input[type="submit"] {
   background-color: #c3251d;
   color: #fff;
@@ -1470,28 +1683,33 @@ img.alignright,
   width: 100%;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews-widget input:hover[type="submit"],
 .enews-widget input:focus[type="submit"] {
   background-color: #fff;
   color: #333;
 }
 
+/* line 36, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .sidebar .widget.enews-widget {
   background-color: #333;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_genesis-enews-extended.scss */
 .enews form + p {
   margin-top: 24px;
 }
 
 /* ## Jetpack
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/plugins/_jetpack.scss */
 #wpstats {
   display: none;
 }
 
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
+/* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .site-title a {
   background: url(images/tanzsport-logo-white.png) no-repeat;
   background-size: 100% auto;
@@ -1502,15 +1720,18 @@ img.alignright,
   width: 200px;
 }
 
+/* line 13, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .site-header {
   background-color: #004E96;
   min-height: 100px;
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .site-header .wrap {
   padding: 0;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .top-rect {
   width: 100%;
   padding-top: 500px;
@@ -1522,6 +1743,7 @@ img.alignright,
   overflow: hidden;
 }
 
+/* line 31, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .top-rect:after {
   content: "";
   display: block;
@@ -1539,22 +1761,26 @@ img.alignright,
 
 /* ## Title Area
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .title-area {
   float: left;
   padding: 10px 0;
   width: 360px;
 }
 
+/* line 10, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .header-full-width .title-area {
   width: 100%;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .site-title {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .site-title a,
 .site-title a:hover,
 .site-title a:focus {
@@ -1562,6 +1788,7 @@ img.alignright,
   text-decoration: none;
 }
 
+/* line 27, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .header-image .site-title > a {
   background: url(images/logo.png) no-repeat left;
   float: left;
@@ -1569,17 +1796,20 @@ img.alignright,
   width: 100%;
 }
 
+/* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .site-description {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .site-description,
 .site-title {
   margin-bottom: 0;
 }
 
+/* line 45, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_title-area.scss */
 .header-image .site-description,
 .header-image .site-title {
   display: block;
@@ -1588,6 +1818,7 @@ img.alignright,
 
 /* ## Widget Area
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_widget-area.scss */
 .site-header .widget-area {
   float: right;
   text-align: right;
@@ -1597,6 +1828,7 @@ img.alignright,
 
 /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu {
   clear: both;
   font-size: 1rem;
@@ -1604,11 +1836,13 @@ img.alignright,
   width: 100%;
 }
 
+/* line 10, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .menu-item {
   display: inline-block;
   text-align: left;
 }
 
+/* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu a {
   color: #fff;
   text-decoration: none;
@@ -1616,6 +1850,7 @@ img.alignright,
   padding: 30px 24px;
 }
 
+/* line 22, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
 .genesis-nav-menu .current-menu-item > a,
@@ -1626,6 +1861,7 @@ img.alignright,
   text-weight: bold;
 }
 
+/* line 32, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .sub-menu {
   transition: opacity 0.4s ease-in-out;
   position: absolute;
@@ -1635,6 +1871,7 @@ img.alignright,
   z-index: 99;
 }
 
+/* line 40, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .sub-menu a {
   background-color: #fff;
   border: 1px solid #eee;
@@ -1646,27 +1883,33 @@ img.alignright,
   word-wrap: break-word;
 }
 
+/* line 51, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .sub-menu .sub-menu {
   margin: -55px 0 0 199px;
 }
 
+/* line 56, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .menu-item:hover {
   position: static;
 }
 
+/* line 59, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu .menu-item:hover > .sub-menu {
   left: auto;
   opacity: 1;
 }
 
+/* line 65, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
+/* line 69, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
 
+/* line 73, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .right {
   color: #fff;
   float: right;
@@ -1674,25 +1917,30 @@ img.alignright,
   padding: 30px 0;
 }
 
+/* line 80, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .right > a {
   display: inline;
   padding: 0;
 }
 
+/* line 85, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .rss > a {
   margin-left: 48px;
 }
 
+/* line 89, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-navigation.scss */
 .genesis-nav-menu > .search {
   padding: 10px 0 0;
 }
 
 /* ## Accessible Menu
 --------------------------------------------- */
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_accessible-menu.scss */
 .menu .menu-item:focus {
   position: static;
 }
 
+/* line 12, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_accessible-menu.scss */
 .menu .menu-item > a:focus + ul.sub-menu,
 .menu .menu-item.sfHover > ul.sub-menu {
   left: auto;
@@ -1701,29 +1949,35 @@ img.alignright,
 
 /* ## Site Header Navigation
 --------------------------------------------- */
+/* line 6, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-header-navigation.scss */
 .site-header .sub-menu {
   border-top: 1px solid #eee;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-header-navigation.scss */
 .site-header .sub-menu .sub-menu {
   margin-top: -56px;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_site-header-navigation.scss */
 .site-header .genesis-nav-menu li li {
   margin-left: 0;
 }
 
 /* ## Primary Navigation
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_primary-navigation.scss */
 .nav-primary {
   background-color: #333;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_primary-navigation.scss */
 .nav-primary .genesis-nav-menu a {
   color: #ccc;
   text-decoration: none;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_primary-navigation.scss */
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu a:focus,
 .nav-primary .genesis-nav-menu .current-menu-item > a {
@@ -1731,10 +1985,12 @@ img.alignright,
   text-decoration: underline;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_primary-navigation.scss */
 .nav-primary .genesis-nav-menu .sub-menu a {
   color: #333;
 }
 
+/* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_primary-navigation.scss */
 .nav-primary .genesis-nav-menu .sub-menu a:hover,
 .nav-primary .genesis-nav-menu .sub-menu a:focus,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a {
@@ -1744,16 +2000,19 @@ img.alignright,
 
 /* ## Secondary Navigation
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_secondary-navigation.scss */
 .nav-secondary {
   background-color: #fff;
 }
 
 /* ## Skip Links
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_skip-links.scss */
 .genesis-skip-link {
   margin: 0;
 }
 
+/* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_skip-links.scss */
 .genesis-skip-link li {
   height: 0;
   width: 0;
@@ -1761,6 +2020,7 @@ img.alignright,
 }
 
 /* Display outline on focus */
+/* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_skip-links.scss */
 :focus {
   color: #333;
   outline: #ccc solid 1px;
@@ -1768,6 +2028,7 @@ img.alignright,
 
 /* Responsive Menu
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
 .responsive-menu-icon {
   cursor: pointer;
   display: none;
@@ -1775,6 +2036,7 @@ img.alignright,
   text-align: center;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
 .responsive-menu-icon:before {
   content: "";
   display: inline-block;
@@ -1788,25 +2050,31 @@ img.alignright,
   box-shadow: 0 1em 0 0 white, 0 .5em 0 0 white;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
 .nav-primary .responsive-menu-icon::before {
   color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
+  /* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu > .menu-item > .sub-menu,
   .genesis-nav-menu.responsive-menu {
     display: none;
   }
+  /* line 44, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-item,
   .responsive-menu-icon {
     display: block;
   }
+  /* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-item {
     margin: 0;
   }
+  /* line 53, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-item:hover {
     position: static;
   }
+  /* line 57, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .current-menu-item > a,
   .genesis-nav-menu.responsive-menu .sub-menu .current-menu-item > a:hover,
   .genesis-nav-menu.responsive-menu a,
@@ -1816,18 +2084,22 @@ img.alignright,
     padding: 16px 20px;
     text-align: center;
   }
+  /* line 66, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .nav-primary .genesis-nav-menu.responsive-menu .current-menu-item > a,
   .nav-primary .genesis-nav-menu.responsive-menu .sub-menu .current-menu-item > a:hover,
   .nav-primary .genesis-nav-menu.responsive-menu a,
   .nav-primary .genesis-nav-menu.responsive-menu a:hover {
     color: #fff;
   }
+  /* line 73, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-item-has-children {
     cursor: pointer;
   }
+  /* line 77, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-item-has-children > a {
     margin-right: 60px;
   }
+  /* line 81, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu > .menu-item-has-children:before {
     content: "\f347";
     float: right;
@@ -1838,12 +2110,15 @@ img.alignright,
     text-align: right;
     z-index: 9999;
   }
+  /* line 91, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .nav-primary .genesis-nav-menu.responsive-menu > .menu-item-has-children:before {
     color: #fff;
   }
+  /* line 95, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .menu-open.menu-item-has-children:before {
     content: "\f343";
   }
+  /* line 99, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .sub-menu {
     border: none;
     left: auto;
@@ -1854,9 +2129,11 @@ img.alignright,
     width: 100%;
     z-index: 99;
   }
+  /* line 114, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .sub-menu .sub-menu {
     margin: 0;
   }
+  /* line 118, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-navigation/_responsive-menu.scss */
   .genesis-nav-menu.responsive-menu .sub-menu .current-menu-item > a:hover,
   .genesis-nav-menu.responsive-menu .sub-menu li a,
   .genesis-nav-menu.responsive-menu .sub-menu li a:hover {
@@ -1872,73 +2149,88 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 /* ## Entries
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry {
   margin-bottom: 40px;
   padding: 50px 60px;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .content .entry {
   background-color: #fff;
 }
 
+/* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry-content ol,
 .entry-content ul {
   margin-bottom: 28px;
   margin-left: 40px;
 }
 
+/* line 21, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry-content ol > li {
   list-style-type: decimal;
 }
 
+/* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry-content ul > li {
   list-style-type: disc;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry-content ol ol,
 .entry-content ul ul {
   margin-bottom: 0;
 }
 
+/* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 .entry-content code {
   background-color: #333;
   color: #ddd;
 }
 
+/* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 a.alignleft, img.alignleft, .wp-caption.alignleft,
 a.alignright, img.alignright, .wp-caption.alignright {
   margin: 20px 20px 20px 0;
 }
 
+/* line 44, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 a.alignright, img.alignright, .wp-caption.alignright {
   margin: 20px 0 20px 20px;
 }
 
+/* line 48, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entries.scss */
 #vorstandsbild {
   margin-right: 50px;
 }
 
 /* ## Entry Meta
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entry-meta.scss */
 p.entry-meta {
   font-size: 1rem;
   margin-bottom: 0;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entry-meta.scss */
 .entry-header .entry-meta {
   margin-bottom: 24px;
 }
 
+/* line 13, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entry-meta.scss */
 .entry-footer .entry-meta {
   border-top: 2px solid #f5f5f5;
   padding-top: 24px;
 }
 
+/* line 18, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entry-meta.scss */
 .entry-categories,
 .entry-tags {
   display: block;
 }
 
+/* line 23, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_entry-meta.scss */
 .entry-comments-link::before {
   content: "\2014";
   margin: 0 6px 0 2px;
@@ -1946,19 +2238,23 @@ p.entry-meta {
 
 /* ## Pagination
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_pagination.scss */
 .pagination {
   clear: both;
   margin: 40px 0;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_pagination.scss */
 .adjacent-entry-pagination {
   margin-bottom: 0;
 }
 
+/* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_pagination.scss */
 .archive-pagination li {
   display: inline;
 }
 
+/* line 19, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_pagination.scss */
 .archive-pagination li a {
   background-color: #333;
   color: #fff;
@@ -1969,6 +2265,7 @@ p.entry-meta {
   text-decoration: none;
 }
 
+/* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_pagination.scss */
 .archive-pagination li a:hover,
 .archive-pagination li a:focus,
 .archive-pagination .active a {
@@ -1978,6 +2275,7 @@ p.entry-meta {
 
 /* ## Comments
 --------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-respond,
 .entry-comments,
 .entry-pings {
@@ -1985,62 +2283,75 @@ p.entry-meta {
   margin-bottom: 40px;
 }
 
+/* line 11, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-respond,
 .entry-pings {
   padding: 40px 40px 16px;
 }
 
+/* line 16, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .entry-comments {
   padding: 40px;
 }
 
+/* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-header {
   font-size: 1rem;
 }
 
+/* line 24, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 li.comment {
   background-color: #f5f5f5;
   border: 2px solid #fff;
   border-right: 0;
 }
 
+/* line 30, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-content {
   clear: both;
   word-wrap: break-word;
 }
 
+/* line 37, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-list li {
   margin-top: 24px;
   padding: 32px;
 }
 
+/* line 42, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-list li li {
   margin-right: -32px;
 }
 
+/* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-respond input[type="email"],
 .comment-respond input[type="text"],
 .comment-respond input[type="url"] {
   width: 50%;
 }
 
+/* line 55, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .comment-respond label {
   display: block;
   margin-right: 12px;
 }
 
+/* line 61, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .entry-comments .comment-author {
   margin-bottom: 0;
 }
 
+/* line 65, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .entry-pings .reply {
   display: none;
 }
 
+/* line 69, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .bypostauthor {
   display: block;
 }
 
+/* line 73, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/content-area/_comments.scss */
 .form-allowed-tags {
   background-color: #f5f5f5;
   font-size: 1rem;
@@ -2049,79 +2360,94 @@ li.comment {
 
 /* # Sidebars
 ---------------------------------------------------------------------------------------------------- */
+/* line 5, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/sidebars/_sidebars.scss */
 .sidebar {
   font-size: 1rem;
 }
 
+/* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/sidebars/_sidebars.scss */
 .sidebar li {
   border-bottom: none;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/sidebars/_sidebars.scss */
 .sidebar p:last-child,
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
+/* line 19, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/sidebars/_sidebars.scss */
 .sidebar .widget {
   background-color: #fff;
   margin-bottom: 40px;
-  padding: 40px;
+  padding: 50px 30px;
 }
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets {
   background-color: #333;
   clear: both;
   padding-top: 40px;
 }
 
+/* line 9, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets,
 .footer-widgets a {
   color: #aaa;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets input {
   border: 1px solid #333;
 }
 
+/* line 18, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets a.button,
 .footer-widgets a:hover,
 .footer-widgets a:focus {
   color: #fff;
 }
 
+/* line 24, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets li {
   border-bottom: 1px dotted #666;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
+/* line 30, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets .widget {
   margin-bottom: 40px;
 }
 
+/* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets p:last-child {
   margin-bottom: 0;
 }
 
+/* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
   width: 340px;
 }
 
+/* line 45, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets-1 {
   margin-right: 60px;
 }
 
+/* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets-1,
 .footer-widgets-2 {
   float: left;
 }
 
+/* line 54, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/footer-widgets/_footer-widgets.scss */
 .footer-widgets-3 {
   float: right;
 }
@@ -2129,6 +2455,7 @@ li.comment {
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
 /* keep the footer at bottom of page when no or little content */
+/* line 4, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 html,
 body {
   margin: 0;
@@ -2136,82 +2463,109 @@ body {
   height: 100%;
 }
 
+/* line 10, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-container {
   min-height: 100%;
   position: relative;
 }
 
+/* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-inner {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   /* Height of the footer element */
 }
 
+/* line 17, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer {
   width: 100%;
-  height: 100px;
+  height: 120px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 /* end of keep the footer at bottom of page when no or little content */
+/* line 26, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer {
   background-color: #004E96;
   color: #fff;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 25px 0;
   text-align: center;
+  padding: 45px 0;
 }
 
+/* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer p {
   margin-bottom: 0;
 }
 
+/* line 36, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer a {
   color: #fff;
 }
 
+/* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer .wrap p {
   overflow: hidden;
   padding: 0 60px;
+  margin: 0;
 }
 
+/* line 44, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer .footer-left {
   float: left;
   text-align: left;
 }
 
+/* line 48, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
 .site-footer .footer-right {
   float: right;
   text-align: right;
 }
 
+/* line 52, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
+.site-footer .footer-right a img {
+  position: absolute;
+  top: 43px;
+  opacity: .8;
+}
+
+/* line 57, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-footer/_site-footer.scss */
+.site-footer .footer-right a img:hover {
+  opacity: 1;
+}
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
+  /* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .site-inner,
   .wrap {
     max-width: 960px;
   }
+  /* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .content-sidebar-sidebar .content-sidebar-wrap,
   .sidebar-content-sidebar .content-sidebar-wrap,
   .sidebar-sidebar-content .content-sidebar-wrap {
     width: 740px;
   }
+  /* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .content,
   .site-header .widget-area {
     width: 620px;
   }
+  /* line 19, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .sidebar-content-sidebar .content,
   .sidebar-sidebar-content .content,
   .content-sidebar-sidebar .content {
     width: 400px;
   }
+  /* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .sidebar-primary,
   .title-area {
     width: 300px;
   }
+  /* line 30, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .footer-widgets-1,
   .footer-widgets-2,
   .footer-widgets-3,
@@ -2219,16 +2573,19 @@ body {
   .title-area {
     width: 300px;
   }
+  /* line 38, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-1200.scss */
   .footer-widgets-1 {
     margin-right: 30px;
   }
 }
 
 @media only screen and (max-width: 960px) {
+  /* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .site-inner,
   .wrap {
     max-width: 800px;
   }
+  /* line 8, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .content,
   .content-sidebar-sidebar .content,
   .content-sidebar-sidebar .content-sidebar-wrap,
@@ -2245,17 +2602,21 @@ body {
   .title-area {
     width: 100%;
   }
+  /* line 25, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .site-header .wrap {
     padding: 20px 5%;
   }
+  /* line 29, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .header-image .site-title > a {
     background-position: center top;
   }
+  /* line 33, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .genesis-nav-menu li,
   .site-header ul.genesis-nav-menu,
   .site-header .search-form {
     float: none;
   }
+  /* line 39, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .genesis-nav-menu,
   .site-description,
   .site-header .title-area,
@@ -2263,30 +2624,47 @@ body {
   .site-title {
     text-align: center;
   }
+  /* line 47, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .genesis-nav-menu a,
   .genesis-nav-menu > .first > a,
   .genesis-nav-menu > .last > a {
     padding: 20px 16px;
   }
+  /* line 53, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .site-header .search-form {
     margin: 16px auto;
   }
+  /* line 57, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .genesis-nav-menu li.right {
     display: none;
   }
+  /* line 61, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .footer-widgets-1 {
     margin-right: 0;
   }
+  /* line 65, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .site-title a {
     margin: auto;
   }
+  /* line 68, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
+  .site-footer {
+    padding: 40px 0;
+  }
+  /* line 71, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   .site-footer .footer-left, .site-footer .footer-right {
     float: none;
   }
+  /* line 76, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
+  .site-footer .footer-right a img {
+    top: 40px;
+    left: 10px;
+  }
+  /* line 82, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   ul.filter {
     text-align: center;
     padding-top: 20px;
   }
+  /* line 86, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-960.scss */
   ul.filter li {
     float: none;
     display: inline-block;
@@ -2294,21 +2672,26 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  /* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   body {
     background-color: #fff;
     font-size: 1rem;
   }
+  /* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   p {
     font-size: 0.9375rem;
   }
+  /* line 10, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-inner {
     padding-top: 20px;
   }
+  /* line 14, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-inner,
   .wrap {
     padding-left: 5%;
     padding-right: 5%;
   }
+  /* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .archive-description,
   .author-box,
   .comment-respond,
@@ -2319,9 +2702,11 @@ body {
   .site-header {
     padding: 5px;
   }
+  /* line 31, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .archive-pagination li a {
     margin-bottom: 4px;
   }
+  /* line 35, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .five-sixths,
   .four-sixths,
   .one-fourth,
@@ -2336,15 +2721,19 @@ body {
     margin: 0;
     width: 100%;
   }
+  /* line 50, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .sidebar .widget.enews-widget {
     padding: 40px;
   }
+  /* line 55, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-header .widget-area {
     margin-top: 0;
   }
+  /* line 58, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-header .wrap {
     padding: 0;
   }
+  /* line 62, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   h1.entry-title,
   h1.archive-title,
   h2.entry-title {
@@ -2353,27 +2742,26 @@ body {
     padding: 15px;
     text-align: center;
   }
+  /* line 71, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   h2.entry-title, h3 {
     font-size: 1.125rem;
   }
+  /* line 75, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .entry .entry-content div {
     padding: 0;
   }
-  .site-footer {
-    padding: 15px 0;
-  }
+  /* line 81, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-footer .wrap p {
     padding: 0 20px;
   }
-  .site-footer .footer-left, .site-footer .footer-right {
-    float: none;
-  }
+  /* line 85, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .to-top {
     height: 30px;
     width: 30px;
     bottom: 70px;
     right: 5px;
   }
+  /* line 91, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   button,
   input[type="button"],
   input[type="reset"],
@@ -2383,21 +2771,37 @@ body {
     padding: 4px 10px;
     width: auto;
   }
+  /* line 100, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .title-area {
     padding: 0;
   }
+  /* line 103, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-title {
     font-size: 1rem;
   }
+  /* line 106, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-title a {
     background: url(images/tanzsport-logo-white.png) no-repeat;
     background-size: 100% auto;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  /* line 2, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-480.scss */
+  .site-footer {
+    padding: 20px 0;
+  }
+  /* line 7, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-480.scss */
+  .site-footer .footer-right a img {
+    top: 75px;
+    left: 6px;
+  }
+}
+
 /* # Print Styles
 ---------------------------------------------------------------------------------------------------- */
 @media print {
+  /* line 6, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   *,
   *:before,
   *:after {
@@ -2406,49 +2810,60 @@ body {
     color: #000 !important;
     text-shadow: none !important;
   }
+  /* line 15, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
+  /* line 20, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
+  /* line 24, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+  /* line 28, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after,
   .site-title > a:after {
     content: "";
   }
+  /* line 34, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   thead {
     display: table-header-group;
   }
+  /* line 38, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   img,
   tr {
     page-break-inside: avoid;
   }
+  /* line 43, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   img {
     max-width: 100% !important;
   }
   @page {
     margin: 2cm 0.5cm;
   }
+  /* line 51, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+  /* line 58, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   blockquote,
   pre {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+  /* line 64, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   .content,
   .content-sidebar {
     width: 100%;
   }
+  /* line 69, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   button,
   input,
   select,
@@ -2471,23 +2886,28 @@ body {
   .sidebar {
     display: none !important;
   }
+  /* line 92, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   .title-area {
     text-align: center;
     width: 100%;
   }
+  /* line 97, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   .site-title > a {
     margin: 0;
     text-decoration: none;
     text-indent: 0;
   }
+  /* line 103, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   .site-inner {
     padding-top: 0;
     position: relative;
     top: -100px;
   }
+  /* line 109, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   .author-box {
     margin-bottom: 0;
   }
+  /* line 113, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   h1,
   h2,
   h3,
@@ -2499,15 +2919,18 @@ body {
     page-break-inside: avoid;
     widows: 3;
   }
+  /* line 126, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   img {
     page-break-after: avoid;
     page-break-inside: avoid;
   }
+  /* line 131, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   blockquote,
   pre,
   table {
     page-break-inside: avoid;
   }
+  /* line 137, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_print.scss */
   dl,
   ol,
   ul {

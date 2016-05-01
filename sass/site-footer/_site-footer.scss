@@ -12,11 +12,11 @@ body {
 	position:relative;
 }
 .site-inner {
-	padding-bottom:100px; /* Height of the footer element */
+	padding-bottom:120px; /* Height of the footer element */
 }
 .site-footer {
 	width:100%;
-	height:100px;
+	height:120px;
 	position:absolute;
 	bottom:0;
 	left:0;
@@ -27,9 +27,8 @@ body {
 	background-color: $color-blue;
 	color:  $color-white;
 	font-size: rem(14);
-	line-height: 1;
-	padding: 25px 0;
 	text-align: center;
+	padding: 45px 0;
 
 	p {
 		margin-bottom: 0;
@@ -40,6 +39,7 @@ body {
 	.wrap p {
       overflow: hidden;
       padding: 0 60px;
+		margin: 0;
    }
 	.footer-left {
 		float:left;
@@ -48,5 +48,15 @@ body {
 	.footer-right {
 		float:right;
 		text-align: right;
+
+		a img {
+	   	position: absolute;
+	   	top: 43px;
+			opacity: .8;
+
+			&:hover {
+				opacity:1;
+			}
+		}
 	}
 }
