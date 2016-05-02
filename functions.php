@@ -87,11 +87,6 @@ add_post_type_support( 'portfolio', 'genesis-cpt-archives-settings' );
 //* Define custom image size for Portfolio images in Portfolio archive
 add_image_size( 'portfolio-image', 330, 230, true );
 
-//Enqueue the Dashicons script
-// add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' ); function load_dashicons_front_end() {
-// 	wp_enqueue_style( 'dashicons' );
-// }
-
 /** Customise the post info info function */
 add_filter( 'genesis_post_info', 'genesischild_post_info' );
 function genesischild_post_info($post_info) {

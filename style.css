@@ -1278,13 +1278,13 @@ ul.filter a {
   width: 23%;
 }
 
-/* line 49, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 48, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-item a img {
   display: block;
   margin-bottom: 0;
 }
 
-/* line 54, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 53, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-overlay {
   color: #fff;
   position: absolute;
@@ -1299,12 +1299,12 @@ ul.filter a {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 71, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 70, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-item img:hover + .portfolio-overlay, .portfolio-overlay:hover {
   opacity: 1;
 }
 
-/* line 75, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 74, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .portfolio-overlay h3 {
   font-weight: bold;
   margin: 0;
@@ -1314,25 +1314,30 @@ ul.filter a {
   color: #fff;
 }
 
-/* line 84, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 83, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .clearfix {
   clear: both;
+}
+
+/* line 88, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+.archive.post-type-archive-portfolio #menu-item-32 a {
+  color: #85c17d;
 }
 
 /*-----------------------------------------------------------------------------------*
 /* = Isotope CSS Animations
 /*-----------------------------------------------------------------------------------*/
-/* line 91, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 95, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope, .isotope .isotope-item {
   transition-duration: 0.6s;
 }
 
-/* line 92, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 96, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope {
   transition-property: height, width;
 }
 
-/* line 93, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 97, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope .isotope-item {
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
@@ -1340,39 +1345,39 @@ ul.filter a {
 }
 
 /**** disabling Isotope CSS3 transitions ****/
-/* line 95, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 99, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
   transition-duration: 0s;
 }
 
-/* line 97, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 101, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .filterable-portfolio-page .content .entry-header {
   margin-bottom: 1rem;
   margin-bottom: 10px;
 }
 
-/* line 102, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+/* line 106, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
 .filterable-portfolio-page .content .entry-title {
   margin-bottom: 3rem;
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1179px) {
-  /* line 108, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+  /* line 112, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 22%;
   }
 }
 
 @media only screen and (max-width: 1023px) {
-  /* line 114, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+  /* line 118, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 30%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  /* line 119, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
+  /* line 123, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/structure-layout/_portfolio.scss */
   .portfolio-item {
     width: 100%;
   }

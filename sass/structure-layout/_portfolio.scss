@@ -45,7 +45,6 @@ ul.filter a {
     width: 23%;
 }
 
-
 .portfolio-item a img {
     display: block;
     margin-bottom: 0;
@@ -83,6 +82,11 @@ ul.filter a {
 
 .clearfix{
     clear: both;
+}
+
+// fix for portfolio menu item not showing current state class
+.archive.post-type-archive-portfolio #menu-item-32 a {
+	color: $color-green;
 }
 
 /*-----------------------------------------------------------------------------------*
