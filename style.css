@@ -1716,9 +1716,8 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 /* line 3, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/site-header/_site-header.scss */
 .site-title a {
-  background: url(images/tanzsport-logo-white.png) no-repeat;
+  background: url(images/tanzsport-logo-final2.png) no-repeat;
   background-size: 100% auto;
-  background-image: url(images/tanzsport-logo-white.svg), none;
   display: block;
   height: 80px;
   text-indent: -9999em;
@@ -2786,7 +2785,7 @@ body {
   }
   /* line 106, /Users/maymy/Documents/Websites/sg-tanzen.dev/wp-content/themes/genesis-sample-master/sass/media-queries/_max-width-800.scss */
   .site-title a {
-    background: url(images/tanzsport-logo-white.png) no-repeat;
+    background: url(images/tanzsport-logo-final2.png) no-repeat;
     background-size: 100% auto;
   }
 }
