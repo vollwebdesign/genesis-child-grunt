@@ -2,14 +2,19 @@
 //* Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
 
-//* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.2.2' );
+// * Child theme (do not remove)
+// define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
+// define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
+// define( 'CHILD_THEME_VERSION', '2.2.2' );
+//
+define( 'CHILD_THEME_NAME', 'SG Dornheim Tanzsport' );
+define( 'CHILD_THEME_URL', 'http://vollwebdesign.de' );
+define( 'CHILD_THEME_VERSION', '1.0' );
 
 //* Enqueue Google Fonts
-add_action( 'wp_enqueue_scripts', 'genesis_sample_scripts' );
-function genesis_sample_scripts() {
+add_action( 'wp_enqueue_scripts', 'sg_dornheim_tanzsport_scripts' );
+//function genesis_sample_scripts() {
+function sg_dornheim_tanzsport_scripts() {
 
 	$suffix = '.min';
 
@@ -26,14 +31,14 @@ function genesis_sample_scripts() {
 	wp_enqueue_style( 'google-fonts' );
 
 	//* Remove default stylesheet
-	wp_deregister_style( 'genesis-sample-theme' );
+	wp_deregister_style( 'sg-dornheim-tanzsport' );
 
 	//* Add compiled stylesheet
-	wp_register_style( 'genesis-sample-theme', get_stylesheet_directory_uri() . '/style' . $suffix . '.css', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'genesis-sample-theme' );
+	wp_register_style( 'sg-dornheim-tanzsport', get_stylesheet_directory_uri() . '/style' . $suffix . '.css', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'sg-dornheim-tanzsport' );
 
 	//* Add compiled JS
-	wp_enqueue_script( 'genesis-sample-scripts', get_stylesheet_directory_uri() . '/js/script' . $suffix . '.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+	wp_enqueue_script( 'sg_dornheim_tanzsport_scripts', get_stylesheet_directory_uri() . '/js/script' . $suffix . '.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 
 
 }
